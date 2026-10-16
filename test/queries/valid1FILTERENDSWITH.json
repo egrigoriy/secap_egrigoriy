@@ -1,0 +1,281 @@
+{
+    "title": "SELECT dept, avg WHERE Title ends with",
+    "query": "In courses dataset courses, find entries whose Title ends with \"adul educ\"; show Department, Title and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+			"result":[
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":68.29
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":68.89
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":69.96
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":70.53
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":70.53
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":72.63
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":72.96
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":75.43
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":75.68
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":76.05
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":76.17
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":76.22
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":76.35
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":76.74
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":77.28
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":77.54
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":77.58
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":77.58
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":78
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"inst adul educ",
+					"courses_avg":78.09
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":78.2
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":78.57
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":78.77
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":78.81
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":78.81
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":78.9
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"inst adul educ",
+					"courses_avg":78.91
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"inst adul educ",
+					"courses_avg":78.91
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"inst adul educ",
+					"courses_avg":79.33
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"inst adul educ",
+					"courses_avg":79.33
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":80.25
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":80.55
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":81.2
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"inst adul educ",
+					"courses_avg":82.82
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":82.9
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":83.02
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":83.05
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":84.04
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":84.07
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":84.45
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":85.2
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":85.2
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":85.29
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":86.33
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":86.45
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"inst adul educ",
+					"courses_avg":87.14
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":87.88
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":88.25
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":88.25
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":88.91
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":89.08
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":89.55
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":90.16
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_title":"adul educ",
+					"courses_avg":90.18
+				}
+			]
+		}
+    }
+}

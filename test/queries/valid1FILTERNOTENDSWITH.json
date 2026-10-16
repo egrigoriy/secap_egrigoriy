@@ -1,0 +1,59 @@
+{
+    "title": "SELECT dept, avg WHERE Title  does not end with",
+    "query":"In courses dataset coursesmiddle, find entries whose Title does not end with \"ii\" and Department is not \"thtr\"; show Department and Average.",
+    "response": {
+        "code": 200,
+        "body": {
+			"result":[
+                {
+                    "coursesmiddle_avg":87.34,
+                    "coursesmiddle_dept":"nurs"
+                },
+                {
+                    "coursesmiddle_avg":87.34,
+                    "coursesmiddle_dept":"nurs"
+                },
+                {
+                    "coursesmiddle_avg":89.8,
+                    "coursesmiddle_dept":"nurs"
+                },
+                {
+                    "coursesmiddle_avg":89.8,
+                    "coursesmiddle_dept":"nurs"
+                },
+                {
+                    "coursesmiddle_avg":88.13,
+                    "coursesmiddle_dept":"nurs"
+                },
+                {
+                    "coursesmiddle_avg":88.13,
+                    "coursesmiddle_dept":"nurs"
+                },
+                {
+                    "coursesmiddle_avg":92.62,
+                    "coursesmiddle_dept":"nurs"
+                },
+                {
+                    "coursesmiddle_avg":92.62,
+                    "coursesmiddle_dept":"nurs"
+                },
+                {
+                    "coursesmiddle_avg":79.69,
+                    "coursesmiddle_dept":"nurs"
+                },
+                {
+                    "coursesmiddle_avg":79.69,
+                    "coursesmiddle_dept":"nurs"
+                },
+                {
+                    "coursesmiddle_avg":91.33,
+                    "coursesmiddle_dept":"nurs"
+                },
+                {
+                    "coursesmiddle_avg":91.33,
+                    "coursesmiddle_dept":"nurs"
+                }
+			]
+		}
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid FILTER production - CRITERIA - NUMBER is letter with minus",
+    "query": "In courses dataset courses, find entries whose Average is greater than -a; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "title":"Find Room 1 GROUP 1 APPLY",
+    "query":"In rooms dataset rooms grouped by Short Name, find entries whose Furniture includes \"Tables\" and Seats is greater than 300; show Short Name and maxSeats, where maxSeats is the MAX of Seats; sort in descending order by maxSeats.",
+    "response":{
+        "code":200,
+        "body":{
+            "result":[
+                {
+                    "rooms_shortname":"HEBB",
+                    "maxSeats":375
+                },
+                {
+                    "rooms_shortname":"LSC",
+                    "maxSeats":350
+                }
+            ]
+        }
+    }
+}

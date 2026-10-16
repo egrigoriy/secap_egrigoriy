@@ -1,0 +1,15 @@
+{
+    "title":"Valid QueryAggregate SUM",
+    "query":"In courses dataset courses grouped by Department, find entries whose Department is \"cpsc\"; show Department and sumGrade, where sumGrade is the SUM of Average.",
+    "response":{
+        "code":200,
+        "body":{
+            "result":[
+                {
+                    "courses_dept":"cpsc",
+                    "sumGrade":86189.91
+                }
+            ]
+        }
+    }
+}

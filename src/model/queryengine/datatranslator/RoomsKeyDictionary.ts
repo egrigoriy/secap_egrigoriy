@@ -1,0 +1,28 @@
+export const RoomsKeyDictionary = {
+    to: {
+        fullname: "Full Name",
+        shortname: "Short Name",
+        number: "Number",
+        name: "Name",
+        address: "Address",
+        lat: "Latitude",
+        lon: "Longitude",
+        seats: "Seats",
+        type: "Type",
+        furniture: "Furniture",
+        href: "Link",
+    },
+    from: {
+        "Full Name": "fullname",
+        "Short Name": "shortname",
+        "Number": "number",
+        "Name": "name",
+        "Address": "address",
+        "Latitude": "lat",
+        "Longitude": "lon",
+        "Seats": "seats",
+        "Type": "type",
+        "Furniture": "furniture",
+        "Link": "href",
+    },
+};

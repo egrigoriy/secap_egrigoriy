@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid FILTER production 2 CRITERIA - operator OR",
+    "query": "In courses dataset courses, find entries whose Department is \"adhe\" OR Average is greater than 90; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

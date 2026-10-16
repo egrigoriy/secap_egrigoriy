@@ -1,0 +1,16 @@
+{
+    "title":"Valid QueryAggregate 2 RULES",
+    "query":"In courses dataset courses grouped by Department, find entries whose Department is \"cpsc\"; show Department, countTitle and avgGrade, where avgGrade is the AVG of Average and countTitle is the COUNT of Title.",
+    "response":{
+        "code":200,
+        "body":{
+            "result":[
+                {
+                    "courses_dept":"cpsc",
+                    "avgGrade":77.58,
+                    "countTitle":53
+                }
+            ]
+        }
+    }
+}

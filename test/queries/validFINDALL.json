@@ -1,0 +1,15 @@
+{
+    "title":"Find all entries",
+    "query":"In courses dataset coursessmall, find all entries; show Department and Average; sort in ascending order by Average.",
+    "response":{
+        "code":200,
+        "body":{
+            "result":[
+                {
+                    "coursessmall_dept":"math",
+                    "coursessmall_avg":96.83
+                }
+            ]
+        }
+    }
+}

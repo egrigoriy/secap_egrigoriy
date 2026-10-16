@@ -1,0 +1,22 @@
+{
+    "title":"Find Room ALL FIELDS but GEO EMPTY TYPE",
+    "query":"In rooms dataset rooms, find entries whose Short Name is \"LASR\" and Number is \"105\"; show Full Name, Short Name, Number, Name, Address, Seats, Type, Furniture and Link.",
+    "response":{
+        "code":200,
+        "body":{
+            "result":[
+                {
+                    "rooms_fullname":"Frederic Lasserre",
+                    "rooms_shortname":"LASR",
+                    "rooms_number":"105",
+                    "rooms_name":"LASR_105",
+                    "rooms_address":"6333 Memorial Road",
+                    "rooms_seats":60,
+                    "rooms_type":"",
+                    "rooms_furniture":"Classroom-Fixed Tablets",
+                    "rooms_href":"http://students.ubc.ca/campus/discover/buildings-and-classrooms/room/LASR-105"
+                }
+            ]
+        }
+    }
+}

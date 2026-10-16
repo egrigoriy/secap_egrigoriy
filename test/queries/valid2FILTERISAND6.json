@@ -1,0 +1,33 @@
+{
+    "title":"Filter with criteria AND criteria - M_CRITERIA is not equal",
+    "query":"In courses dataset courses, find entries whose Average is not less than 98 and Average is not greater than 98; show Title, UUID, Instructor, Audit, ID, Pass, Fail, Average and Department; sort in ascending order by Instructor.",
+    "response":{
+        "code":200,
+        "body":{
+            "result":[
+                {
+                    "courses_title":"thesis",
+                    "courses_uuid":"46412",
+                    "courses_instructor":"grady, albert wayne",
+                    "courses_audit":0,
+                    "courses_id":"599",
+                    "courses_pass":1,
+                    "courses_fail":0,
+                    "courses_avg":98,
+                    "courses_dept":"crwr"
+                },
+                {
+                    "courses_title":"thesis",
+                    "courses_uuid":"46405",
+                    "courses_instructor":"maillard, keith",
+                    "courses_audit":0,
+                    "courses_id":"599",
+                    "courses_pass":1,
+                    "courses_fail":0,
+                    "courses_avg":98,
+                    "courses_dept":"crwr"
+                }
+            ]
+        }
+    }
+}

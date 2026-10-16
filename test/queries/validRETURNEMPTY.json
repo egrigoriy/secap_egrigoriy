@@ -1,0 +1,12 @@
+{
+    "title":"Find all entries",
+    "query":"In courses dataset courses grouped by Department, find entries whose Year is equal to 1900; show Department and minGrade, where minGrade is the MIN of Average.",
+    "response":{
+        "code":200,
+        "body":{
+            "result":[
+                
+            ]
+        }
+    }
+}

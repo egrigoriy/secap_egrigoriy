@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid DATASET production - not full count - 3 of 4 required",
+    "query": "In courses datasetcourses, find entries whose Average is greater than 97; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

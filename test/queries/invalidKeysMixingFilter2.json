@@ -1,0 +1,10 @@
+{
+    "title": "Mixing keys Courses - in Filter 2nd position",
+    "query": "In courses dataset courses, find entries whose Department is \"adhe\" or Number is greater than 97.56 and Pass is less than 20.05; show Department, Pass, Instructor and Average; sort in ascending order by Department.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

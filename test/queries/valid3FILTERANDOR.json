@@ -1,0 +1,59 @@
+{
+    "title": "Filter with criteria AND criteria OR criteria",
+    "query": "In courses dataset courses, find entries whose Audit is not equal to 0 and Instructor is \"palacios, carolina\" or Average is less than 15; show Department, Audit, Instructor and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+			"result":[
+				{
+					"courses_dept":"lfs",
+					"courses_audit":0,
+					"courses_instructor":"",
+					"courses_avg":0
+				},
+				{
+					"courses_dept":"lfs",
+					"courses_audit":0,
+					"courses_instructor":"",
+					"courses_avg":0
+				},
+				{
+					"courses_dept":"frst",
+					"courses_audit":0,
+					"courses_instructor":"",
+					"courses_avg":0
+				},
+				{
+					"courses_dept":"busi",
+					"courses_audit":0,
+					"courses_instructor":"",
+					"courses_avg":4
+				},
+				{
+					"courses_dept":"busi",
+					"courses_audit":0,
+					"courses_instructor":"",
+					"courses_avg":4
+				},
+				{
+					"courses_dept":"fopr",
+					"courses_audit":0,
+					"courses_instructor":"bendickson, dennis",
+					"courses_avg":4.5
+				},
+				{
+					"courses_dept":"adhe",
+					"courses_audit":1,
+					"courses_instructor":"palacios, carolina",
+					"courses_avg":77.58
+				},
+				{
+					"courses_dept":"edst",
+					"courses_audit":1,
+					"courses_instructor":"palacios, carolina",
+					"courses_avg":93.4
+				}
+			]
+		}
+    }
+}

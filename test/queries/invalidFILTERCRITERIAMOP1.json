@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid FILTER production - CRITERIA - MOP - literal IS",
+    "query": "In courses dataset courses, find entries whose Average IS greater than 97; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

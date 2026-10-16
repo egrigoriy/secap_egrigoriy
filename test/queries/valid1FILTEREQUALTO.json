@@ -1,0 +1,15 @@
+{
+    "title": "SELECT dept, avg WHERE Fail = 97",
+    "query": "In courses dataset courses, find entries whose Fail is equal to 97; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body":{
+			"result":[
+				{
+					"courses_dept":"math",
+					"courses_avg":61.03
+				}
+			]
+		}
+    }
+}

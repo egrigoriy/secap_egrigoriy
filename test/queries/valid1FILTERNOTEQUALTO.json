@@ -1,0 +1,19 @@
+{
+    "title": "SELECT dept, avg WHERE Audit != 0",
+    "query": "In courses dataset coursesmiddle, find entries whose Audit is not equal to 0; show Department and Average.",
+    "response": {
+        "code": 200,
+        "body":{
+			"result":[
+				{
+					"coursesmiddle_dept":"math",
+					"coursesmiddle_avg":89
+				},
+				{
+					"coursesmiddle_dept":"math",
+					"coursesmiddle_avg":89
+				}
+			]
+		}
+    }
+}

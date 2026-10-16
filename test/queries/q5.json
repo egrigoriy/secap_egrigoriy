@@ -1,0 +1,81 @@
+{
+    "title": "SELECT dept, instructor, avg WHERE dept=adhe AND pass>25 and Instructor=palacios",
+    "query": "In courses dataset courses, find entries whose Department is \"adhe\" and Pass is greater than 25 and Instructor is \"palacios, carolina\"; show Department, Instructor and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+            "result": [
+                 {
+                    "courses_dept":"adhe",
+                    "courses_instructor":"palacios, carolina",
+                    "courses_avg":72.55
+                },
+                {
+                    "courses_dept":"adhe",
+                    "courses_instructor":"palacios, carolina",
+                    "courses_avg":72.96
+                },
+                {
+                    "courses_dept":"adhe",
+                    "courses_instructor":"palacios, carolina",
+                    "courses_avg":75.71
+                },
+                {
+                    "courses_dept":"adhe",
+                    "courses_instructor":"palacios, carolina",
+                    "courses_avg":76.22
+                },
+                {
+                    "courses_dept":"adhe",
+                    "courses_instructor":"palacios, carolina",
+                    "courses_avg":76.35
+                },
+                {
+                    "courses_dept":"adhe",
+                    "courses_instructor":"palacios, carolina",
+                    "courses_avg":76.59
+                },
+                {
+                    "courses_dept":"adhe",
+                    "courses_instructor":"palacios, carolina",
+                    "courses_avg":77.59
+                },
+                {
+                    "courses_dept":"adhe",
+                    "courses_instructor":"palacios, carolina",
+                    "courses_avg":78
+                },
+                {
+                    "courses_dept":"adhe",
+                    "courses_instructor":"palacios, carolina",
+                    "courses_avg":78
+                },
+                {
+                    "courses_dept":"adhe",
+                    "courses_instructor":"palacios, carolina",
+                    "courses_avg":78.41
+                },
+                {
+                    "courses_dept":"adhe",
+                    "courses_instructor":"palacios, carolina",
+                    "courses_avg":78.57
+                },
+                {
+                    "courses_dept":"adhe",
+                    "courses_instructor":"palacios, carolina",
+                    "courses_avg":78.77
+                },
+                {
+                    "courses_dept":"adhe",
+                    "courses_instructor":"palacios, carolina",
+                    "courses_avg":80.25
+                },
+                {
+                    "courses_dept":"adhe",
+                    "courses_instructor":"palacios, carolina",
+                    "courses_avg":84.04
+                }
+            ]
+        }
+    }
+}

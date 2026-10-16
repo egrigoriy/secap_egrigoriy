@@ -1,0 +1,17 @@
+{
+    "title": "Filter with criteria OR criteria AND criteria",
+    "query": "In courses dataset courses, find entries whose Average is less than 15 or Instructor is \"palacios, carolina\" and UUID is \"89536\"; show Department, UUID, Instructor and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 200,
+        "body": {
+			"result":[
+				{
+					"courses_dept":"frst",
+					"courses_uuid":"89536",
+					"courses_instructor":"",
+					"courses_avg":0
+				}
+			]
+		}
+    }
+}

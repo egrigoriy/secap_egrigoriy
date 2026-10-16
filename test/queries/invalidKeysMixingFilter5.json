@@ -1,0 +1,10 @@
+{
+    "title": "Mixing keys Rooms - in Filter 2nd position",
+    "query": "In rooms dataset rooms, find entries whose Short Name is \"ESB\" and Average is greater than 100 or Number begins with \"10\"; show Short Name, Number and Seats; sort in ascending order by Seats.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

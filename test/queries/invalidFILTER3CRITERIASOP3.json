@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid FILTER production 3 CRITERIA - S_OP operator INCLUDES",
+    "query": "In courses dataset courses, find entries whose Department is \"adhe\" and Pass is greater than 20 and Instructor INCLUDES \"palacios, carolina\"; show Department, Instructor and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

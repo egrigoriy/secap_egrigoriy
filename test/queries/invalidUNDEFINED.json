@@ -1,0 +1,10 @@
+{
+    "title":"A query is UNDEFINED",
+    "query":"undefined",
+    "response":{
+        "code":400,
+        "body":{
+            "error":""
+        }
+    }
+}

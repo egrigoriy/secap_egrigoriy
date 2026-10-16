@@ -1,0 +1,36 @@
+{
+    "title":"Find Room Filter with NOT",
+    "query":"In rooms dataset rooms, find entries whose Short Name is \"ALRD\" and Type is not \"\"; show Full Name, Short Name and Type.",
+    "response":{
+        "code":200,
+        "body":{
+            "result":[
+                {
+                    "rooms_fullname":"Allard Hall (LAW)",
+                    "rooms_shortname":"ALRD",
+                    "rooms_type":"Case Style"
+                },
+                {
+                    "rooms_fullname":"Allard Hall (LAW)",
+                    "rooms_shortname":"ALRD",
+                    "rooms_type":"Open Design General Purpose"
+                },
+                {
+                    "rooms_fullname":"Allard Hall (LAW)",
+                    "rooms_shortname":"ALRD",
+                    "rooms_type":"Open Design General Purpose"
+                },
+                {
+                    "rooms_fullname":"Allard Hall (LAW)",
+                    "rooms_shortname":"ALRD",
+                    "rooms_type":"Case Style"
+                },
+                {
+                    "rooms_fullname":"Allard Hall (LAW)",
+                    "rooms_shortname":"ALRD",
+                    "rooms_type":"Open Design General Purpose"
+                }
+            ]
+        }
+    }
+}

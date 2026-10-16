@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid FILTER production 3 CRITERIA - M_OP - operator OP",
+    "query": "In courses dataset courses, find entries whose Department is \"adhe\" and Pass is greater than 20 and Average is OP 50.0; show Department, Instructor and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

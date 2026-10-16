@@ -1,0 +1,8 @@
+{
+    "title":"MIN edge case Look for missing field",
+    "query":"In courses dataset courses, find entries whose Average is equal to 0; show Instructor and Average.",
+    "response":{
+        "code":200,
+        "body":{"result":[{"courses_instructor":"","courses_avg":0},{"courses_instructor":"","courses_avg":0},{"courses_instructor":"","courses_avg":0}]}
+    }
+}

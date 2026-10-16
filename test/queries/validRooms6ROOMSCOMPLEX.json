@@ -1,0 +1,65 @@
+{
+    "title":"Find Courses with compelex GROUP, APPLY, ORDER",
+    "query":"In courses dataset courses grouped by Department, Year and Instructor, find entries whose Department is \"iar\" or Department is \"cnto\"; show Department, Instructor, Year, avgGrade, maxGrade, minGrade and sumAudit, where avgGrade is the AVG of Average, maxGrade is the MAX of Average, minGrade is the MIN of Average and sumAudit is the SUM of Audit; sort in ascending order by Department, Year and avgGrade.",
+    "response":{
+        "code":200,
+        "body":{
+            "result":[
+                {
+                    "courses_dept":"cnto",
+                    "courses_year":2015,
+                    "courses_instructor":"pai, kit",
+                    "avgGrade":86.23,
+                    "maxGrade":89.42,
+                    "minGrade":84.59,
+                    "sumAudit":14
+                },
+                {
+                    "courses_dept":"cnto",
+                    "courses_year":2015,
+                    "courses_instructor":"",
+                    "avgGrade":86.99,
+                    "maxGrade":89.38,
+                    "minGrade":84.6,
+                    "sumAudit":15
+                },
+                {
+                    "courses_dept":"iar",
+                    "courses_year":2010,
+                    "courses_instructor":"",
+                    "avgGrade":87,
+                    "maxGrade":87,
+                    "minGrade":87,
+                    "sumAudit":0
+                },
+                {
+                    "courses_dept":"iar",
+                    "courses_year":2011,
+                    "courses_instructor":"",
+                    "avgGrade":83.33,
+                    "maxGrade":83.33,
+                    "minGrade":83.33,
+                    "sumAudit":0
+                },
+                {
+                    "courses_dept":"iar",
+                    "courses_year":2012,
+                    "courses_instructor":"",
+                    "avgGrade":87.5,
+                    "maxGrade":87.5,
+                    "minGrade":87.5,
+                    "sumAudit":0
+                },
+                {
+                    "courses_dept":"iar",
+                    "courses_year":2015,
+                    "courses_instructor":"",
+                    "avgGrade":82.6,
+                    "maxGrade":85.2,
+                    "minGrade":80,
+                    "sumAudit":0
+                }
+            ]
+        }
+    }
+}

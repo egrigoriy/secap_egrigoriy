@@ -1,0 +1,10 @@
+{
+    "title": "Mixing keys Courses - in Display 3rd position",
+    "query": "In courses dataset courses, find entries whose Average is greater than 97; show Department, Instructor and Type; sort in ascending order by Department.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

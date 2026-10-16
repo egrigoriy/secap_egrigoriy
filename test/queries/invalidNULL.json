@@ -1,0 +1,10 @@
+{
+    "title": "A query is NULL",
+    "query": null,
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

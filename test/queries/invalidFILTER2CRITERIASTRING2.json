@@ -1,0 +1,10 @@
+{
+    "title": "A query with invalid FILTER production 2 CRITERIA - STRING contains double quote",
+    "query": "In courses dataset courses, find entries whose Department is \"adhe\" and Instructor is \"palacios,\"carolina\"; show Department and Average; sort in ascending order by Average.",
+    "response": {
+        "code": 400,
+        "body": {
+            "error": ""
+        }
+    }
+}

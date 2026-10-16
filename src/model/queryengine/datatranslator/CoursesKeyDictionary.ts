@@ -1,0 +1,28 @@
+export const CoursesKeyDictionary = {
+    to: {
+        Title: "Title",
+        id: "UUID",
+        Professor: "Instructor",
+        Audit: "Audit",
+        Year: "Year",
+        Course: "ID",
+        Pass: "Pass",
+        Fail: "Fail",
+        Avg: "Average",
+        Subject: "Department",
+        Section: "Section",
+    },
+    from: {
+        Title: "title",
+        UUID: "uuid",
+        Instructor: "instructor",
+        Audit: "audit",
+        Year: "year",
+        ID: "id",
+        Pass: "pass",
+        Fail: "fail",
+        Average: "avg",
+        Department: "dept",
+        Section: "section",
+    },
+};
