@@ -42,6 +42,6 @@ You do not need to use any specific IDE for this capstone, but WebStorm should b
 
 ## COURSE MARK:
 
-![team_feedback.jpg](team_feedback.jpg){width=300px}
+![team_feedback.jpg](team_feedback.jpg)
 
 
